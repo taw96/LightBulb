@@ -37,6 +37,7 @@ public class TextFieldComponent extends AppCompatEditText {
         mClearButtonImage = ResourcesCompat.getDrawable(getResources(),R.drawable.ic_clear_black_24dp1,null);
         setBackgroundColor(Color.YELLOW);
 
+        // touch listener which detects whether the user tapped on the clear icon or not, also works with rtl languages.
 
         setOnTouchListener(new OnTouchListener() {
             @Override

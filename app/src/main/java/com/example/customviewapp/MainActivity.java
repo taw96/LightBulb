@@ -2,7 +2,6 @@ package com.example.customviewapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -11,7 +10,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import static com.example.customviewapp.R.id.lightBulb;
 
 public class MainActivity extends AppCompatActivity {
 
