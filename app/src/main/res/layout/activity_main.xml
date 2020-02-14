@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.example.customviewapp.SwitchComponent
+        android:id="@+id/switchComponent"
+
+        android:layout_width="220dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="40dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textFieldComponent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lightBulb">
+
+    </com.example.customviewapp.SwitchComponent>
+
+    <com.example.customviewapp.TextFieldComponent
+        android:id="@+id/textFieldComponent"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchComponent" />
+
+    <ImageView
+        android:id="@+id/lightBulb"
+        android:layout_width="187dp"
+        android:layout_height="262dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/switchComponent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/off" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="223dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/textFieldComponent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchComponent" />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/com."-->
+    <!--        android:layout_width="171dp"-->
+    <!--        android:layout_height="67dp"-->
+    <!--        android:layout_marginStart="120dp"-->
+    <!--        android:layout_marginTop="168dp"-->
+    <!--        android:layout_marginEnd="120dp"-->
+    <!--        android:layout_marginBottom="496dp"-->
+    <!--        android:gravity="start"-->
+    <!--        android:hint="@string/last_name"-->
+    <!--        android:inputType="textCapSentences"-->
+    <!--        android:textAppearance="@style/TextAppearance.AppCompat.Display1"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--    <TextView&ndash;&gt;-->
+    <!--        android:id="@+id/customViewLabel"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="16dp"-->
+    <!--        android:layout_marginLeft="8dp"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginEnd="8dp"-->
+    <!--        android:layout_marginRight="8dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="Fan Control"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/dialView"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:background="@color/colorAccent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/customViewLabel"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        android:layout_marginLeft="8dp"-->
+    <!--        android:layout_marginRight="8dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

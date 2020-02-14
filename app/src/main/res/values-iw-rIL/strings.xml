@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CustomView App</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="switchOffMessage">הקלד \"כבה\" והקש אנטר</string>
+    <string name="switchOnMessage">הקלד \"הדלק\" והקש אנטר</string>
+</resources>

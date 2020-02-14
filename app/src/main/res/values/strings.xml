@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomView App</string>
+    <string name="last_name">Last Name</string>
+    <string name="switchOnMessage">הקלד "הדלק" והקש אנטר</string>
+    <string name="switchOffMessage">הקלד "כבה" והקש אנטר</string>
+
+</resources>
